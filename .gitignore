@@ -10,3 +10,20 @@ yarn-error.log*
 .DS_Store
 
 
+# Dev tools & caches
+.npm/
+.pm2/
+.turbo/
+.vercel/
+
+# SSH and secrets
+.ssh/
+.profile
+
+# Client build/cache
+client/.next/
+client/node_modules/
+client/.turbo/
+client/.vercel/
+
+
